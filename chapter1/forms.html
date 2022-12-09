@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Play</title>
+</head>
+<body>
+    <form action="">
+        <fieldset style="width: 450px;">
+            <div>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <input type="radio" name="gender" id="gender" value="Male" checked>
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="gender" value="Female">
+                <label for="gender">Female</label>
+            </div>
+            <div>
+                <input type="checkbox" name="married" id="married" value="married">
+                <label for="married">Married</label>
+            </div>
+            <div>
+                <label for="level"></label>
+                <select name="level" id="level">
+                    <option value="1">BSc</option>
+                    <option value="2">MSc</option>
+                    <option value="3">PhD</option>
+                </select>
+            </div>
+            <div>
+                <label for="submission-date">Submission Date</label>
+                <input type="text" placeholder="DD/MM/YYYY">
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="25" rows="5"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+    </fieldset>
+    </form>
+    
+</body>
+</html>
